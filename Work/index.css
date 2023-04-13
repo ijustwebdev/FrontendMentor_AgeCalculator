@@ -1,0 +1,99 @@
+body{
+    background-color: hsl(0, 0%, 94%);
+    font-family: 'Poppins', sans-serif;
+    min-height: 97vh;
+    display: flex;
+}
+
+main{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 90%;
+    border-radius: 20px 20px 100px 20px;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.02);
+    padding: 10% 5%;
+    
+}
+
+#sectionIn{
+    display: flex;
+    justify-content: center;
+}
+
+.inptCategory{
+    width: 30%;
+    margin: auto;
+}
+
+.inputLabel{
+    font-weight: 400;
+    color: hsl(0, 1%, 44%);
+    margin-bottom: 5%;
+}
+
+input{
+    width: 60%;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    font-family: 'Poppins', sans-serif;
+    padding: 10% 15%;
+    
+}
+
+#seperator{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin: 10% auto;
+}
+
+#underline{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.1);
+    margin-top: 10%;
+    width: 96%;
+    position: absolute;
+}
+
+#arrowButton{
+    background-color: hsl(259, 100%, 65%);
+    background-image: url('/assets/images/icon-arrow.svg');
+    background-size: 2rem;
+    background-position: center;    
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#sectionOut{
+    display: block;
+    font-size: 32px;
+    margin-bottom: 4%;
+}
+
+.outputCategory{
+    display: block;
+    max-width: 100%;
+    margin: -5% 0;
+}
+
+.num{
+    color: hsl(259, 100%, 65%);
+    display: inline;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: 800;
+    display: inline;
+}
+
+@media (max-width: 375px){
+
+}
+
